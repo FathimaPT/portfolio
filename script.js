@@ -3,6 +3,6 @@ const nav = document.querySelector(".links")
 
 menu.onclick = () =>{
     menu.classList.toggle('bx-x')
-    menu.classList.toggle('active')
+    nav.classList.toggle('active')
 
 }
